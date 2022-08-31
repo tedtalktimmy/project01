@@ -44,6 +44,7 @@ function stopVideo() {
 }
 
 
+
 $(document).ready(function(){ 
  
   $(".primaryContained").on('click', function(){
