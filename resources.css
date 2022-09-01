@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Raleway:wght@200&display=swap');
 
+* { margin: 0;
+    padding: 0;
+  
+    }
+
 .lead {
     visibility: hidden;
     
@@ -7,6 +12,7 @@
 
 .jumbotron {
 	background-image: url("logo3.png");
+    
 }
 
 .display-4 {
@@ -46,7 +52,7 @@ margin-right: 120px;
     background-color: antiquewhite;
     display: block;
     margin-top: 100px;
-padding: 60px;
+padding: 40px;
 padding-top: 10px;
 padding-bottom:10px;
 margin-left: 250px;
@@ -84,13 +90,18 @@ font-family: Raleway;
 }
 
 .mySlides {
+    
+        display: block;
+        margin:0 auto;
+        max-width: 1600px;
+        max-height: 600px;
+        overflow:visible;
+    }
+
+.links {
     display: block;
     text-align: center;
-    padding: 60px;
-padding-top: 10px;
-padding-bottom:10px;
-margin-left: 60px;
-margin-right: 60px;
-
-
 }
+
+
+
