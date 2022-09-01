@@ -29,7 +29,7 @@
 margin-top: 20px;
 margin-bottom: 15px;
 font-family: Raleway;
-font-size: 28px;
+font-size: 35px;
 line-height: 40px;
 font-weight: 400;
 text-align: center;
@@ -37,8 +37,8 @@ background-color: antiquewhite;
 display: block;
 margin-top: 50px;
 padding: 100px;
-margin-left: 60px;
-margin-right: 60px;
+margin-left: 120px;
+margin-right: 120px;
 
 }
 
@@ -64,8 +64,8 @@ font-family: Raleway;
     justify-content:space-around;
     text-align: center;
     padding-bottom:10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 230px;
+    margin-right: 230px;
    
 }
    
