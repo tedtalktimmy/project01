@@ -1,10 +1,16 @@
 * {
+<<<<<<< HEAD
 	margin: 0;
 	padding: 0;
 }
 
 #video-yt {
 	float:left;
+=======
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+>>>>>>> b2e726994443e01197c2cb519c6e939a73dae54e
 }
 
 .container {
