@@ -1,13 +1,14 @@
+*{ margin: 0;
+padding: 0;
+}
 
 .container {
     display: grid;
     text-align: left;
-    margin-left: 900px;
-	background: #fff;
-	border-radius: 8px;
-	padding: 20px;
-    border: 100px;
-    overflow-y:scroll;
+    margin-left: 500px;
+	overflow-y:scroll;
+	position: sticky;
+
 }
 
 .comment {
@@ -15,16 +16,19 @@
 	transition: all 1s;
 margin-bottom: 40px; 
 overflow-y:scroll;
+
 }
    
 .commentClicked {
 	min-height: 0px;
 	border: 1px solid #eee;
 	border-radius: 5px;
-	padding: 5px 10px
+	padding: 5px 10px;
+	overflow-y: scroll;
 }
 
 .container textarea {
+	overflow-y: scroll;
 	width: 100%;
 	border: none;
 	background: #E8E8E8;
@@ -33,9 +37,6 @@ overflow-y:scroll;
 	border-radius: 5px 5px 0px 0px;
 	border-bottom: 2px solid #016BA8;
 	transition: all 0.5s;
-	
-    
-    overflow-y:scroll;
 }
 
 button.primaryContained {
@@ -56,4 +57,31 @@ button.primaryContained {
 
 button.primaryContained:hover {
 	background: #9201A8;
+}
+
+.jumbotron {
+	background-image: url("logo3.png");
+	
+
+
+	
+  background-color: #cccccc;
+}
+
+
+.lead {
+    visibility: hidden;
+    
+}
+
+.jumbotron {
+	background-image: url("logo3.png");
+}
+
+.display-4 {
+    visibility: hidden;
+}
+
+.hide {
+    visibility: hidden;
 }

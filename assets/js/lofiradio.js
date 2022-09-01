@@ -14,6 +14,7 @@ function onYouTubeIframeAPIReady() {
     height: '250',
     width: '450',
     videoId: 'jfKfPfyJRdk',
+    static: "someValue",
     playerVars: {
       'playsinline': 1
     },
