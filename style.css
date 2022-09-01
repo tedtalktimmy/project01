@@ -1,24 +1,27 @@
-*{ margin: 0;
-padding: 0;
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#video-yt {
+	float:left;
 }
 
 .container {
-    display: grid;
-    text-align: left;
-    margin-left: 500px;
-	overflow-y:scroll;
+	display: grid;
+	text-align: left;
+	margin-left: 500px;
+	overflow-y: scroll;
 	position: sticky;
-
 }
 
 .comment {
 	display: block;
 	transition: all 1s;
-margin-bottom: 40px; 
-overflow-y:scroll;
-
+	margin-bottom: 40px;
+	overflow-y: scroll;
 }
-   
+
 .commentClicked {
 	min-height: 0px;
 	border: 1px solid #eee;
@@ -40,7 +43,7 @@ overflow-y:scroll;
 }
 
 button.primaryContained {
-	background: #016ba8;
+	background: #016BA8;
 	color: #fff;
 	padding: 10px 10px;
 	border: none;
@@ -52,7 +55,7 @@ button.primaryContained {
 	transition: 1s all;
 	font-size: 10px;
 	border-radius: 5px;
-    display: flex;
+	display: flex;
 }
 
 button.primaryContained:hover {
@@ -61,17 +64,12 @@ button.primaryContained:hover {
 
 .jumbotron {
 	background-image: url("logo3.png");
-	
-
-
-	
-  background-color: #cccccc;
+	background-color: #CCCCCC;
+	height: 100%;
 }
 
-
 .lead {
-    visibility: hidden;
-    
+	visibility: hidden;
 }
 
 .jumbotron {
@@ -79,9 +77,9 @@ button.primaryContained:hover {
 }
 
 .display-4 {
-    visibility: hidden;
+	visibility: hidden;
 }
 
 .hide {
-    visibility: hidden;
+	visibility: hidden;
 }
