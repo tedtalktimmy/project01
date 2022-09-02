@@ -148,7 +148,7 @@ body {
 
 }
 
-.custom-card {
+.card {
     background: transparent;
     color:lightgrey;
     padding: 2em;
@@ -213,4 +213,8 @@ h1.temp {
     margin: auto;
     display: flex;
     justify-content: center;
+}
+
+.weather-container {
+    height: 100%;
 }

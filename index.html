@@ -9,10 +9,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
   <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-  <script defer src="./assets/js/vue.min.js"></script>
+  <script src="./assets/js/vue.min.js"></script>
   <script defer src="./assets/js/lofiradio.js"></script>
+  <script defer src="./assets/js/weather.js"></script>
   <link rel="stylesheet" href="./assets/css/style.css" />
-  <title>Loag Lounge</title>
+  <title>Loaf Lounge</title>
 </head>
 
 <body class="field">
@@ -34,47 +35,61 @@
   </div>
 
 
-  <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
-  <div class="container">
 
-<<<<<<< HEAD
+
+  <div class="row align-items-center">
+    <div class="col-12">
+      <section class="welcome card p-3 m-3">
+        <h2>WELCOME TO LOAFLOUNGE A PLACE TO CALM YOUR MIND </h2>
+      </section>
+    </div>
+  </div>
+  <div class="col-12 col-xl-6">
+    <div class="video-yt">
+      <script id="player" src="./assets/js/lofiradio.js"></script>
+    </div>
+  </div>
+
+  <div class="weather-container">
+
     <div class="card">
       <div class="search">
         <input type="text" class="search-bar" />
         <button class="weather-btn">Go</button>
-=======
-    <div class="row align-items-center">
-      <div class="col-12">
-        <section class="welcome card p-3 m-3">
-          <h2>WELCOME TO LOAFLOUNGE A PLACE TO CALM YOUR MIND </h2>
-        </section>
->>>>>>> a227df10715221cee8863757ccd2f5feef0292d3
       </div>
-      <div class="col-12 col-xl-6">
-        <div class="video-yt">
-          <script id="player" src="./assets/js/lofiradio.js"></script>
-        </div>
+      <div class="weather">
+        <h2 class="city">Weather in Denver</h2>
+        <div class="temp">51°C</div>
+        <img src="" alt="" class="icon" />
+        <div class="description">Cloudy</div>
+        <div class="humidity">Humidity: 60%</div>
+        <div class="wind">Wind speed: 6.2km/h</div>
       </div>
+    </div>
+    —————
+    </div>
+
+    <div>
       <article id="app" class="col-12 col-xl-6">
         <div class="comment">
           <p v-for="items in item" v-text="items"></p>
         </div>
         <!--End Comment-->
-    </div>
-    <!--End col -->
-  </div><!-- End row -->
-  <div class="row  justify-content-center">
-    <div class="col-6">
-      <div class="d-flex flex-column">
-        <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem"
-          @keyup.enter="addItem()"></textarea>
-        <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
-      </div><!-- End col -->
 
-    </div>
-    <!--End Container -->
-    </article><!-- end App -->
+        <!--End col -->
+        <div class="row  justify-content-center">
+          <div class="col-6">
+            <div class="d-flex flex-column">
+              <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem"
+                @keyup.enter="addItem()"></textarea>
+              <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
+            </div><!-- End col -->
+          </div><!-- End row -->
 
+        </div>
+        <!--End Container -->
+      </article><!-- end App -->
+    </div>
     <section>
       <h2 class="gameheader">Daily Game</h2>
     </section>
