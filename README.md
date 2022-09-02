@@ -20,4 +20,4 @@ So come on and loaf around.
 
 [Github Link](https://github.com/tedtalktimmy/project01)
 
-[Live Link](https://github.com/ajenkinsynwa/password-generator-/tree/master)
+[Live Link](https://tedtalktimmy.github.io/project01/)
