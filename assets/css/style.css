@@ -126,6 +126,7 @@ body {
 }
 
 .card {
+
     background: burlywood;
     color:lightgrey;
     padding: 2em;
@@ -191,5 +192,10 @@ h1.temp {
 .video-yt {
     margin: auto;
     justify-content: center;
+}
+
+
+.weather-container {
+    height: 100%;
 }
 
