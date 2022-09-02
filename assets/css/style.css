@@ -141,6 +141,20 @@ body {
     text-align: center;
 }
 
+.gameheader {background-color: burlywood;
+    color: black;
+    display: block;
+    padding: 80px;
+    margin-left: 250px;
+    margin-right: 270px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    border-radius: 15px;
+    font-family: Raleway;
+    font-size: 45px;
+    text-align: center;
+
+
 .card {
     background: transparent;
     color:lightgrey;
