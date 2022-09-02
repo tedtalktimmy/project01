@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Raleway:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.lead {
+    visibility: hidden;
+}
+
+.jumbotron {
+    background-image: url("../images/logo3.png");
+}
+
+.display-4 {
+    visibility: hidden;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.field {
+    background-image: url("../images/city.png");
+    margin-bottom: 100px;
+    height: 340px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header2 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: Raleway;
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 400;
+    text-align: center;
+    background-color: antiquewhite;
+    display: block;
+    margin-top: 50px;
+    padding: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 15px;
+
+}
+
+.header3 {
+    background-color: antiquewhite;
+    display: block;
+    margin-top: 100px;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Raleway;
+    border-radius: 15px;
+}
+
+.links {
+    display: block;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left: 230px;
+    margin-right: 230px;
+    border-radius: 15px;
+}
+
+.motivation {
+    background-color: antiquewhite;
+    display: block;
+    margin-top: 100px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Raleway;
+    border-radius: 15px;
+}
+
+.mySlides {
+    display: block;
+    margin: 0 auto;
+    max-width: 1600px;
+    max-height: 600px;
+    overflow: visible;
+    text-align: center;
+}
+
+.links {
+    display: block;
+    text-align: center;
+}
+
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    header {
+        visibility: hidden;
+    }
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+    nav {
+        visibility: hidden;
+    }
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+    .sample-img {
+        visibility: hidden;
+    }
+}
