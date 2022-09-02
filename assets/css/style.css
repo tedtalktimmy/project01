@@ -127,6 +127,19 @@ body {
     font-family: Raleway;
     font-size: 45px;
 }
+.gameheader {background-color: burlywood;
+    color: black;
+    display: block;
+    padding: 80px;
+    margin-left: 250px;
+    margin-right: 270px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    border-radius: 15px;
+    font-family: Raleway;
+    font-size: 45px;
+    text-align: center;
+}
 
 .gameheader {background-color: burlywood;
     color: black;
@@ -188,16 +201,16 @@ input.search-bar {
 }
 
 .flex {
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 h1.temp {
-	margin: 0;
-	margin-bottom: 0.4em;
+    margin: 0;
+    margin-bottom: 0.4em;
 }
 
 .description {
-	text-transform: capitalize;
-	margin-left: 8px;
+    text-transform: capitalize;
+    margin-left: 8px;
 }
