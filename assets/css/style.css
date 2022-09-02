@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 .field {
+
     background-image: url("../images/city.png");
     margin-bottom: 100px;
     height: 340px;
@@ -111,7 +112,8 @@ body {
 }
 .user-icon {
     width: 10%;
-    float: left;
+
+    display: inline-block;
     height: 64px;
     background: url('user_icon.png') no-repeat center center;
 }
@@ -153,7 +155,9 @@ body {
     font-family: Raleway;
     font-size: 45px;
     text-align: center;
+
 }
+
 
 
 .card {
@@ -198,6 +202,7 @@ input.search-bar {
     border-radius: 18px;
     background: #7c7c7c2b;
     color: lightgrey;
+
 }
 
 .flex {
@@ -213,4 +218,6 @@ h1.temp {
 .description {
     text-transform: capitalize;
     margin-left: 8px;
+
 } 
+
