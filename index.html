@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="style.css" />
   <title>Loag Lounge</title>
   <script src="./assets/js/lofiradio.js"></script>
+  <script src="./assets/js/weather.js" defer></script>
 </head>
 
 <body class="field">
@@ -65,13 +66,15 @@
     <div class="card">
       <div class="search">
         <input type="text" class="search-bar" />
-        <button class="weather-btn icon">x x</button>
+        <button class="weather-btn">x x</button>
       </div>
       <div class="weather">
         <h2 class="city">Weather in Denver</h2>
-        <div class="temp">51°C</div>
-        <img src="" alt="" class="icon" />
+        <h1 class="temp">51°F</h1>
+        <div class="flex">
+        <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
         <div class="description">Cloudy</div>
+        </div>
         <div class="humidity">Humidity: 60%</div>
         <div class="wind">Wind speed: 6.2km/h</div>
       </div>
@@ -80,6 +83,7 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <script src="vue.min.js"></script>
+   
 </body>
 
 </html>
