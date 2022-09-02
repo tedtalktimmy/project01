@@ -12,9 +12,9 @@ So come on and loaf around.
 
 # Visuals 
 
-![The Password Generator application displays a red button to "Generate Password".](/project01/readmain.png)
+![Main Page Screen-shot "Main Page".](/assets/images/readmain.png)
 
-![The Password Generator application displays a red button to "Generate Password".](/project01/readme2.png)
+![Resource page Screen-shot "Resources".](/assets/images/readme2.png)
 
 # Live Links
 
