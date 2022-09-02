@@ -26,13 +26,31 @@
   <div class="jumbotron">
     <h1 class="display-4">Loaf Lounge</h1>
     <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-      featured content or information.</p>
+      featured content or information
+      asdfasdfasdfasdfsdfasdfasdfsad
+      sdafsdafasdfasdfasdfsadfasdf.</p>
     <hr class="my-4">
     <p class="hide">It uses utility classes for typography and spacing to space content out within the larger container.
     </p>
 
     <section>
   </div>
+  <div class="weather-container">
+
+    <div class="card">
+      <div class="search">
+        <input type="text" class="search-bar" />
+        <button class="weather-btn">Go</button>
+      </div>
+      <div class="weather">
+        <h2 class="city">Weather in Denver</h2>
+        <div class="temp">51°C</div>
+        <img src="" alt="" class="icon" />
+        <div class="description">Cloudy</div>
+        <div class="humidity">Humidity: 60%</div>
+        <div class="wind">Wind speed: 6.2km/h</div>
+      </div>
+    </div>
 
 
 
@@ -57,6 +75,17 @@
         <input type="text" class="search-bar" />
         <button class="weather-btn">Go</button>
       </div>
+
+    </div>
+    <div class="col-12 col-xl-6">
+      <div class="video-yt">
+        <script id="player" src="./assets/js/lofiradio.js"></script>
+      </div>
+    </div>
+
+    <div class="weather-container">
+
+
       <div class="weather">
         <h2 class="city">Weather in Denver</h2>
         <div class="temp">51°C</div>
@@ -96,9 +125,36 @@
 
 
 
-    <div>
-      <script class="game" src="https://cdn.htmlgames.com/embed.js?game=MayaGolf2&amp;bgcolor=white"></script>
-    </div>
+      <div>
+        <article id="app" class="col-12 col-xl-6">
+          <div class="comment">
+            <p v-for="items in item" v-text="items"></p>
+          </div>
+          <!--End Comment-->
+
+          <!--End col -->
+          <div class="row  justify-content-center">
+            <div class="col-6">
+              <div class="d-flex flex-column">
+                <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem"
+                  @keyup.enter="addItem()"></textarea>
+                <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
+              </div><!-- End col -->
+            </div><!-- End row -->
+
+          </div>
+          <!--End Container -->
+        </article><!-- end App -->
+      </div>
+      <section>
+        <h2 class="gameheader">Daily Game</h2>
+      </section>
+
+
+
+      <div>
+        <script class="game" src="https://cdn.htmlgames.com/embed.js?game=MayaGolf2&amp;bgcolor=white"></script>
+      </div>
 </body>
 
 </html>

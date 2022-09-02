@@ -30,17 +30,8 @@
     overflow-y: scroll;
     background-color: #016BA8;
 }
-.container textarea {
-    overflow-y: scroll;
-    width: 100%;
-    border: none;
-    background: #E8E8E8;
-    padding: 5px 10px;
-    height: 50%;
-    border-radius: 5px 5px 0px 0px;
-    border-bottom: 2px solid #016BA8;
-    transition: all 0.5s;
-}
+
+
 button.primaryContained {
     background: #016BA8;
     color: #fff;
@@ -54,8 +45,8 @@ button.primaryContained {
     transition: 1s all;
     font-size: 10px;
     border-radius: 5px;
-    display: flex;
-}
+    }
+
 button.primaryContained:hover {
     background: #9201A8;
 }
@@ -121,46 +112,34 @@ body {
 }
 .gameheader {background-color: burlywood;
     color: black;
-    display: block;
-    padding: 80px;
-    margin-left: 250px;
-    margin-right: 270px;
+    
+    padding: 40px;
+    margin-left: 300px;
+    margin-right:300px;
     margin-bottom: 50px;
+    
     margin-top: 30px;
     border-radius: 15px;
     font-family: Raleway;
     font-size: 45px;
-    text-align: center;
-}
-
-.gameheader {background-color: burlywood;
-    color: black;
-    display: block;
-    padding: 80px;
-    margin-left: 250px;
-    margin-right: 270px;
-    margin-bottom: 50px;
-    margin-top: 30px;
-    border-radius: 15px;
-    font-family: Raleway;
-    font-size: 45px;
-    text-align: center;
-
+    
 }
 
 .card {
-    background: transparent;
+
+    background: burlywood;
     color:lightgrey;
     padding: 2em;
-    width: 70%;
-    max-width: 300px;
+    margin-left: 550px;
+    margin-right: 550px;
+    color:black;
     margin: 1em;
     outline: none;
     text-align: center;
 }
 
 .search {
-    
+    color: black;
     align-items: center;
     justify-content: center;
 }
@@ -174,13 +153,14 @@ body {
     height: 46px;
     width: 46px;
     background: #7c7c7c2b;
-    color: lightgrey;
+    color: rgb(131, 127, 100);
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
 
 .weather-btn:hover {
     background: #7c7c7c6b;
+    color: black;
 }
 
 input.search-bar {
@@ -189,7 +169,7 @@ input.search-bar {
     padding: 0.8em;
     border-radius: 18px;
     background: #7c7c7c2b;
-    color: lightgrey;
+    color: rgb(23, 22, 22);
 
 }
 
@@ -211,10 +191,11 @@ h1.temp {
 
 .video-yt {
     margin: auto;
-    display: flex;
     justify-content: center;
 }
+
 
 .weather-container {
     height: 100%;
 }
+
