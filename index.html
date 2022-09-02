@@ -30,39 +30,42 @@
     <p class="hide">It uses utility classes for typography and spacing to space content out within the larger container.
     </p>
 
+    <section>
   </div>
-  <section class="welcome">
-
-    <h2 class="welcome">WELCOME TO LOAFLOUNGE A PLACE TO CALM YOUR MIND </h2>
-  </section>
 
 
   <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
-  <div class="row align-items-center">
-    <div class="video-yt">
-      <script id="player" src="./assets/js/lofiradio.js"></script>
-    </div>
-    <article id="app">
-      <div class="container">
-        <div class="row">
-          <div class="col-6">
-            <div class="comment">
-              <p v-for="items in item" v-text="items"></p>
-            </div>
-            <!--End Comment-->
-          </div>
-          <!--End col -->
-        </div><!-- End row -->
-        <div class="row">
-          <div class="col-6">
-            <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem"
-              @keyup.enter="addItem()"></textarea>
-            <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
-          </div><!-- End col -->
-        </div>
-        <!--End Row -->
+  <div class="container">
+
+    <div class="row align-items-center">
+      <div class="col-12">
+        <section class="welcome card p-3 m-3">
+          <h2>WELCOME TO LOAFLOUNGE A PLACE TO CALM YOUR MIND </h2>
+        </section>
       </div>
-      <!--End Container -->
+      <div class="col-12 col-xl-6">
+        <div class="video-yt">
+          <script id="player" src="./assets/js/lofiradio.js"></script>
+        </div>
+      </div>
+      <article id="app" class="col-12 col-xl-6">
+        <div class="comment">
+          <p v-for="items in item" v-text="items"></p>
+        </div>
+        <!--End Comment-->
+    </div>
+    <!--End col -->
+  </div><!-- End row -->
+  <div class="row  justify-content-center">
+    <div class="col-6">
+      <div class="d-flex flex-column">
+        <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem"
+          @keyup.enter="addItem()"></textarea>
+        <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
+      </div><!-- End col -->
+
+    </div>
+    <!--End Container -->
     </article><!-- end App -->
 
     <section>
