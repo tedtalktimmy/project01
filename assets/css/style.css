@@ -6,21 +6,15 @@
     box-sizing: border-box;
 }
 .field {
-
     background-image: url("../images/city.png");
     margin-bottom: 100px;
-    height: 340px;
     background-position: 50% 50%;
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
 }
-.container {
-    display: grid;
-    text-align: left;
-    margin-left: 500px;
-    overflow-y: scroll;
-    position: sticky;
-}
+
 .comment {
     display: block;
     transition: all 1s;
@@ -68,7 +62,8 @@ button.primaryContained:hover {
 .jumbotron {
     background-image: url("../images/logo3.png");
     background-color: #CCCCCC;
-    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .lead {
     visibility: hidden;
@@ -121,11 +116,6 @@ body {
     background-color: burlywood;
     color: black;
     display: block;
-    padding: 30px;
-    margin-left: 250px;
-    margin-right: 270px;
-    margin-bottom: 20px;
-    border-radius: 15px;
     font-family: Raleway;
     font-size: 45px;
 }
@@ -158,9 +148,7 @@ body {
 
 }
 
-
-
-.card {
+.custom-card {
     background: transparent;
     color:lightgrey;
     padding: 2em;
@@ -172,7 +160,7 @@ body {
 }
 
 .search {
-    display: flex;
+    
     align-items: center;
     justify-content: center;
 }
@@ -206,7 +194,7 @@ input.search-bar {
 }
 
 .flex {
-    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -221,3 +209,8 @@ h1.temp {
 
 } 
 
+.video-yt {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
