@@ -111,7 +111,6 @@ body {
 }
 .user-icon {
     width: 10%;
-    display: inline-block;
     float: left;
     height: 64px;
     background: url('user_icon.png') no-repeat center center;
