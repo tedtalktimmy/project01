@@ -187,6 +187,19 @@ h1.temp {
 
 } 
 
+
 .game {
     align-items: center;
 }
+
+.video-yt {
+    margin: auto;
+    justify-content: center;
+}
+
+
+.weather-container {
+    height: 100%;
+}
+
+
