@@ -108,16 +108,17 @@ body {
     color: black;
     display: block;
     font-family: Raleway;
-    font-size: 45px;
+    font-size: 65px;
+    text-align: center;
+    border-radius: 5px;
 }
-.gameheader {background-color: burlywood;
+.gameheader {
+    background-color: burlywood;
     color: black;
-    
     padding: 40px;
     margin-left: 300px;
     margin-right:300px;
     margin-bottom: 50px;
-    
     margin-top: 30px;
     border-radius: 15px;
     font-family: Raleway;
@@ -126,16 +127,13 @@ body {
 }
 
 .card {
-
-    background: burlywood;
+    background: rgb(34, 49, 66);
     color:lightgrey;
-    padding: 2em;
-    margin-left: 550px;
-    margin-right: 550px;
-    color:black;
-    margin: 1em;
-    outline: none;
+    padding: 2px;
+    color:rgb(57, 149, 188);
+    margin:50px;
     text-align: center;
+    border-radius: 5px;
 }
 
 .search {
@@ -189,6 +187,11 @@ h1.temp {
 
 } 
 
+
+.game {
+    align-items: center;
+}
+
 .video-yt {
     margin: auto;
     justify-content: center;
@@ -198,4 +201,5 @@ h1.temp {
 .weather-container {
     height: 100%;
 }
+
 
