@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    
 
 }
 
@@ -32,36 +33,28 @@
 }
 
 .header2 {
-    margin-top: 20px;
-    margin-bottom: 15px;
-    font-family: Raleway;
-    font-size: 35px;
-    line-height: 40px;
-    font-weight: 400;
-    text-align: center;
-    background-color: antiquewhite;
+    background-color: burlywood;
+    color: black;
     display: block;
-    margin-top: 50px;
-    padding: 100px;
-    margin-left: 120px;
-    margin-right: 120px;
-    border-radius: 15px;
-
+    font-family: Raleway;
+    font-size: 45px;
+    text-align: center;
+    border-radius: 5px; 
+    margin-bottom: 120px;
+    width: 100%;
 }
 
+
+
 .header3 {
-    background-color: antiquewhite;
+    background-color: burlywood;
+    color: black;
     display: block;
-    margin-top: 100px;
-    padding: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 250px;
-    margin-right: 250px;
-    text-align: center;
-    font-size: 40px;
     font-family: Raleway;
-    border-radius: 15px;
+    font-size: 45px;
+    text-align: center;
+    border-radius: 5px; 
+    margin-top: 120px;
 }
 
 .links {
@@ -69,58 +62,30 @@
     justify-content: space-around;
     text-align: center;
     padding-bottom: 10px;
-    margin-left: 230px;
-    margin-right: 230px;
     border-radius: 15px;
 }
 
+
+
 .motivation {
-    background-color: antiquewhite;
+    background-color: burlywood;
+    color: black;
     display: block;
-    margin-top: 100px;
-    padding: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 250px;
-    margin-right: 250px;
-    text-align: center;
-    font-size: 40px;
     font-family: Raleway;
-    border-radius: 15px;
+    font-size: 45px;
+    text-align: center;
+    border-radius: 5px; 
+
 }
 
 .mySlides {
     display: block;
-    margin: 0 auto;
-    max-width: 1600px;
-    max-height: 600px;
-    overflow: visible;
-    text-align: center;
+    width: 100%;
+    padding: -400px; 
+    border-radius: 5px;    
 }
 
 .links {
     display: block;
     text-align: center;
-}
-
-
-/* Tablets - header changes color */
-@media screen and (max-width: 992px) {
-    header {
-        visibility: hidden;
-    }
-}
-
-/* Large smartphones - navbar changes color */
-@media screen and (max-width: 768px) {
-    nav {
-        visibility: hidden;
-    }
-}
-
-/* Small smartphones - image placeholders change color */
-@media screen and (max-width: 576px) {
-    .sample-img {
-        visibility: hidden;
-    }
 }
